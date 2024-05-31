@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://api.fontshare.com/v2/css?f[]=general-sans@500,600,400,700&display=swap" rel="stylesheet">
+
+    <title>Dev Server</title>
+  </head>
+  <body>
+    <header class="header container">
+      <nav>
+        <ul class="header__menu">
+          <li>
+            <a class="header__link" href="#about">About</a>
+          </li>
+          <li>
+            <a class="header__link" href="#featured">Work</a>
+          </li>
+          <li>
+            <a class="header__link" href="#contact">Contact</a>
+          </li>
+          <li class="header__line"></li>
+          <li>
+            <button id="theme-toggle" class="header__sun">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" />
+              </svg>
+            </button>
+          </li>
+          <li>
+            <a class="header__resume btn" href="/public/Andy May 2024 Resume.pdf">Resume</a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/andyacosta/"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/andyacosta/" height="30" width="40" /></a>
+          </li>
+        </ul>
+        <button class="header__bars">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+            <path fill-rule="evenodd" d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm0 5.25a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z" clip-rule="evenodd" />
+          </svg>
+        </button>
+        
+      </nav>
+    </header >
+    <!-- Mobile Navigation-->
+    <div class="mobile-nav">
+      <nav>
+        <ul class="mobile-nav__menu">
+          <li>
+            <a class="mobile-nav__link" href="#about">About</a>
+          </li>
+          <li><a class="mobile-nav__link" href="#featured">Work</li>
+          <li><a class="mobile-nav__link" href="#contact">Contact</li>
+          <li class="mobile-nav__link-line"><a href=""></li>
+          <li>
+            <button id="theme-toggle" class="mobile-nav__sun">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" />
+              </svg>
+          </li>
+          <li>
+            <a class="mobile-nav__btn btn" href="/public/Andy May 2024 Resume.pdf">Resume</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <!--End of Mobile Navigation-->
+    <main>
+      <section class="hero container">
+        <img class="hero__img" src="./AndyAvatar.png" alt="profile picture"/>
+        <h2 class="hero__subtitle">Hi, I'm Andy</h2>
+        <h1 class="hero__title">Science Teacher <br> turned <br> Full-Stack Developer</h1>
+        <p class="hero__description">A passionate <strong>educator</strong> who found a new passion for 
+          <strong>Fullstack</strong> Development. Andy specializes in <strong>EdTech</strong>
+          projects where he utilizes his 5+ years of classroom experience
+          with developing new software for educators and students. As a former
+          teacher in a public school, he understands the needs of teachers and students.
+        </p>
+        <a class="hero__btn btn" href="#">Reach out</a>
+      </section>
+      <section id="about" class="about container section">
+          <div class="about__content">
+            <h2 class="about__title">About</h2>
+            <p class="about__description">Hello there! I'm Andy, a <strong>Fullstack</strong> developer based in Zürich, Switzerland. 
+              I recently moved to Zürich but I am originally from the San Francisco Bay Area.
+              You can find me drinking some matcha, hiking, exploring Europe,
+              playing football (soccer) and 
+              practicing my Deutsch.
+            </p>
+            <p class="about__description">
+              I like to build things that focus on education. 
+              I loved my time teaching in the classrooms and one of the things I learned
+              was that we need better tools with easier-to-use interfaces so teachers can focus on teaching! 
+              
+            </p>
+            <p class="about__description">
+              I'm searching for projects that focus on building educational products. 
+              I aim to make the lives of educators easier 
+              with the tools I build.
+            </p>
+            <hr class="about__hr" />
+            <h3 class="about__subtitle">Full-Stack Skills</h3>
+            <div class="about__ul-container">
+              
+            <ul class="about__ul">
+              <img src="https://skillicons.dev/icons?i=html,css,sass,js,react,nodejs,django,python,vue,gitlab,tailwind,mysql,postgres,docker,git,figma,bash,nginx,vscode&theme=light" alt="Skills Icons">
+              <li class="about__list">JavaScript (ES6+)</li>
+              <li class="about__list">CSS/SASS/HTML/Tailwind</li>
+              <li class="about__list">ReactJS</li>
+              <li class="about__list">Redux</li>
+              <li class="about__list">REST API</li>
+              <li class="about__list">Docker CI/CD</li>
+
+            </ul>
+            <ul class="about__ul">
+            </br>
+          </br>
+              <li class="about__list">Python</li>
+              <li class="about__list">Django</li>
+              <li class="about__list">Postgres</li>
+              <li class="about__list">Git</li>
+              <li class="about__list">GitLab Runners</li>
+              <li class="about__list">Nginx</li>
+            </ul>
+          </div>
+          </div>
+          <div class="about__img-wrapper">
+            <img loading="lazy" class="about__img" src="/IMG_4335.jpg" alt="Profile Picture"/>
+          </div>
+
+      </section>
+
+
+      <section id="featured" class="featured container section">
+        <h3 class="featured__subtitle">Featured Project</h3>
+        <div class="featured__wrapper">
+        <h2 class="featured__title">Gavl</h2>
+        <a class="featured__link" href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+            <path fill-rule="evenodd" d="M19.902 4.098a3.75 3.75 0 0 0-5.304 0l-4.5 4.5a3.75 3.75 0 0 0 1.035 6.037.75.75 0 0 1-.646 1.353 5.25 5.25 0 0 1-1.449-8.45l4.5-4.5a5.25 5.25 0 1 1 7.424 7.424l-1.757 1.757a.75.75 0 1 1-1.06-1.06l1.757-1.757a3.75 3.75 0 0 0 0-5.304Zm-7.389 4.267a.75.75 0 0 1 1-.353 5.25 5.25 0 0 1 1.449 8.45l-4.5 4.5a5.25 5.25 0 1 1-7.424-7.424l1.757-1.757a.75.75 0 1 1 1.06 1.06l-1.757 1.757a3.75 3.75 0 1 0 5.304 5.304l4.5-4.5a3.75 3.75 0 0 0-1.035-6.037.75.75 0 0 1-.354-1Z" clip-rule="evenodd" />
+          </svg>
+        </div>
+        </a>
+        <p class="featured__description">
+          <h2>Business Problem</h2>
+          A Geneva-based eco-startup accelerator lacked an efficient system for evaluating startups for their contests, relying on manual reviews and in-person meetings, which were time-consuming and inaccessible for non-local judges.
+          <br>
+          <br>
+          <h2>Project Description</h2>
+          This platform allows organizations to manage startup evaluation events remotely, streamlining the process from setting criteria to determining winners.        </p>
+        <br>
+        <h2>Technical Features</h2>
+        <ul>
+          <li>
+            Event, profile, and contestant pages facilitate interaction and management.
+          </li>
+          <li>
+            Statistical analysis features to review and determine event outcomes.
+          </li>
+        </ul>
+        <br>
+          <div class="featured__info-container">
+        <div>
+          <h3 class="featured__label">Frontend</h3>
+          <ul class="featured__tech-stack">
+            <li class="featured__info">Tailwind/ HTML/ CSS</li>
+            <li class="featured__info">ReactJS</li>
+            <li class="featured__info">Daisy UI</li>
+            <li class="featured__info">Redux</li>
+            <li class="featured__info"></li>
+            <li class="featured__info"></li>
+            <li class="featured__info"></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="featured__label">Backend</h3>
+          <p class="featured__info">Django</p>
+          <p class="featured__info">Python</p>
+          <p class="featured__info">Postgres</p>
+          <p class="featured__info">REST API</p>
+        </div>
+        <div>
+          <h3 class="featured__label">Version Control</h3>
+          <p class="featured__info">Docker CI/CD</p>
+          <p class="featured__info">GitLab</p>
+          <p class="featured__info">GitLab Runners</p>
+        </div>
+        <div>
+          <h3 class="featured__label">Timeline</h3>
+          <p class="featured__info">April-June 2024</p>
+        </div>
+      </div>
+      <div class="featured__img-container">
+      <div class="featured__img-wrapper">
+        <img loading="lazy" src="public\Screenshot_9-3-2024_181633_.jpeg" alt="sign up page" />
+        
+      </div>
+      <div class="featured__img-wrapper">
+      <img loading="lazy" src="public\Screenshot_9-3-2024_181624_.jpeg" alt="sign in page" />
+        
+      </div>
+      <div class="featured__img-wrapper">
+      <img loading="lazy" src="public\Screenshot_9-3-2024_1998_.jpeg" alt="feed page" />
+        
+      </div>
+      <div class="featured__img-wrapper">
+      <img loading="lazy" src="public\Screenshot_9-3-2024_181336_.jpeg" alt="post an image text page" />
+        
+      </div>
+      <div class="featured__img-wrapper">
+      <img loading="lazy" src="public\Screenshot_9-3-2024_181441_.jpeg" alt="edit delete component" />
+        
+      </div>
+      <div class="featured__img-wrapper">
+      <img loading="lazy" src="public\Screenshot_9-3-2024_181239_.jpeg" alt="user profile page" />
+        
+      </div>        
+      </div>
+    </div>      
+    </div>        
+      </div>
+    </div>
+      </section>
+      <section class="work container section">
+        <h2 class="work__title">Projects</h2>
+        <p class="work__description">
+          Inside this section you will find my projects. Feel free to browse and click
+          and check out the functionalities. If you have any interests in one of my
+          projects feel free to reach out! 
+        </p>
+      <div class="work__container">
+        <!--Project 1-->
+        <h3 class="work__project-title">Motion Project FrontEnd</h3>
+        <div class="work__img-wrapper work__image1">
+          <img loading="lazy" src="/public\\ProfilePage.jpeg" alt="Motion Project" />
+        </div>
+        <div class="work__project work__content1">
+          <h3 class="work__project-subtitle">
+            Motion Social Media App
+          </h3>
+        <p class="work__project-description1">
+          We created this project using ReactJS with CSS/SASS. 
+          It took us a week to get all the components done and have
+          the main front end portion of this project complete. 
+        </p>
+        <p class="work__project-description2">
+          Techstack: ReactJS, HTML/CSS, Styled-components, Redux,
+        </p>
+        <a class="btn work__project-btn" href="https://projects.invisionapp.com/share/AZLORJG9UK3#/screens/304969242">Website</a>
+      </div>
+        <!--Project 2-->
+        <h3 class="work__project-title">Motion Project BackEnd</h3>
+        <div class="work__img-wrapper work__image2">
+          <img loading="lazy" src="/public\MotionDashboard.jpeg" alt="Motion Project BackEnd" />
+        </div>
+        <div class="work__project work__content2">
+          <h3 class="work__project-subtitle">
+            Motion REST API
+          </h3>
+          <p class="work__project-description1">
+          In this section you can see the API.
+          </p>
+          <p class="work__project-description2">
+            Techstack: Django, Python, Docker, GitLab Runners
+          </p>
+      </div>
+      <!--Project 3-->
+      <h3 class="work__project-title">Project 3 Coming Soon</h3>
+      <div class="work__img-wrapper work__image3">
+        <img loading="lazy" src="/public\Screenshot_9-3-2024_181624_.jpeg" alt="Project 3" />
+      </div>
+      <div class="work__project work__content3">
+        <h3 class="work__project-subtitle">
+          Luna Restaurant Review App
+        </h3>
+        <p class="work__project-description1">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac placerat justo.
+        <p class="work__project-description2">
+          Techstack: ReactJS, HTML/CSS, Styled-components, Redux,
+        </p>
+      <a class="btn work__project-btn" href="https://projects.invisionapp.com/share/AZLORJG9UK3#/screens/304969242">Website</a>
+    </div>
+            <!--Project 4-->
+            <h3 class="work__project-title">Project 4 coming soon</h3>
+            <div class="work__img-wrapper work__image4">
+              <img loading="lazy" src="/public\Screenshot_9-3-2024_181624_.jpeg" alt="Project 4" />
+            </div>
+            <div class="work__project work__content4">
+              <h3 class="work__project-subtitle">
+                Luna REST API
+              </h3>
+            <p class="work__project-description1">
+              This project was one of my first front-end projects where
+              I had the opportunity to create a website from scratch. 
+              I worked on a team of 3 and we created this site in our
+              FullStack developer bootcamp in Zurich as a challenge.
+            </p>
+            <p class="work__project-description2">
+              Techstack: Django, Python, GitLab Runners, Docker
+
+            </p>
+          </div>
+            <!--Project 5-->
+            <h3 class="work__project-title">Project 5 coming soon</h3>
+            <div class="work__img-wrapper work__image5">
+              <img loading="lazy" src="/public\Screenshot_9-3-2024_181624_.jpeg" alt="Project 5" />
+            </div>
+            <div class="work__project work__content5">
+              <h3 class="work__project-subtitle">
+                Gavl Event Evaluation App
+              </h3>
+              <p class="work__project-description1">
+                We created a platform that allows organizations to easily manage startup evaluation events. This means that organizations can create an event, define the criterias, add the participants, invite the panelists/judges to rate the participants, and pull up the data to determine the results of the event.
+              </p>
+              <p class="work__project-description2">
+                Techstack: ReactJS, HTML/CSS, DaisyUI, Tailwind
+              </p>
+            <a class="btn work__project-btn" href="https://projects.invisionapp.com/share/AZLORJG9UK3#/screens/304969242">Website</a>
+          </div>
+          <!--Project 6-->
+          <h3 class="work__project-title">Project 6 coming soon</h3>
+          <div class="work__img-wrapper work__image6">
+            <img loading="lazy" src="/public\Screenshot_9-3-2024_181624_.jpeg" alt="Project 6" />
+          </div>
+          <div class="work__project work__content6">
+            <h3 class="work__project-subtitle">
+              Gavl REST API
+            </h3>
+            <p class="work__project-description1">
+            API includes user authentication, create event, create contestants, upload CSV file, create organization, invite panelists, and rate and comment the contestant projects.           
+            <p class="work__project-description2">
+              Techstack: Django, Python, Docker, GitLab Runners
+            </p>
+        </div>
+      </div>
+      </section>
+      <section id="contact" class="contact container section">
+        <h2 class="contact__title">Get In Contact</h2>
+        <p clas="contact__description">Whether you are starting a project, 
+          have business inquiries, please feel free to reach out 
+          and I will get back to you as soon as possible.</p>
+          <a class="contact__button btn" href="mailto:pandurria.a@gmail.com" target="_blank">Reach out</a>
+      </section>
+    </main>
+    <footer class="footer container section">
+      <h3 class="footer__title">~ Andy Acosta ~</h3>
+    </footer>
+      <script type="module" src="./src/main.js"></script>
+    </article>
+  </body>
+</html>
